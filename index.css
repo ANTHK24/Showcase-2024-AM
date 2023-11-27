@@ -38,10 +38,8 @@ p {
 }
 
 footer {
-    display: flex;
     width: 3540px;
-    height: 294px;
-    flex-shrink: 0;
+    height: 394px;
     border: 1px solid #000;
     background: #C2B222;
 }

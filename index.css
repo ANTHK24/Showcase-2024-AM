@@ -25,3 +25,12 @@ p {
     font-family: 'Glory', sans-serif;
 
 }
+
+footer {
+    display: flex;
+    width: 3540px;
+height: 294px;
+flex-shrink: 0;
+border: 1px solid #000;
+background: #C2B222;
+}

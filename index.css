@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 @import url('https://fonts.cdnfonts.com/css/jurassic-park');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Comic+Neue&family=Dosis&family=Glory:wght@300&family=Henny+Penny&family=Josefin+Sans&family=Libre+Baskerville:ital@1&family=Mohave:ital,wght@0,400;1,300&family=Nunito+Sans:opsz,wght@6..12,600&family=Roboto+Condensed&display=swap');
+
 
 /*font-family: 'Jurassic Park', sans-serif; */
 /*font-family: 'Francois One', sans-serif; */
+
+body {
+    background-color: #F8F8F0;
+}
 
 h1 {
     font-family: 'Jurassic Park', sans-serif;
@@ -14,5 +20,7 @@ h3 {
 }
 
 p {
+
     font-family: 'Glory', sans-serif;
+
 }

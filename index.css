@@ -6,8 +6,12 @@
 /*font-family: 'Jurassic Park', sans-serif; */
 /*font-family: 'Francois One', sans-serif; */
 
-body {
+html, body {
     background-color: #F8F8F0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -38,17 +42,28 @@ p {
 }
 
 .footer {
-    text-align:;
+    margin-top: 100px;
     font-family: 'Francois One';
-    width: 3540px;
+    width: 2030px;
     height: 394px;
     border: 1px solid #000;
     background: #C2B222;
-    list-style: none;
+    display: ;
+  
 }
 
 a {
     font-family:'Francois One', sans-serif ;
-    list-style-type:style none;
+    
 }
 
+ul {
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+}
+
+ol {
+    text-align:center;
+    display: ;
+}

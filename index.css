@@ -38,14 +38,17 @@ p {
 }
 
 .footer {
-    text-align: center;
+    text-align:;
+    font-family: 'Francois One';
     width: 3540px;
     height: 394px;
     border: 1px solid #000;
     background: #C2B222;
+    list-style: none;
 }
 
 a {
     font-family:'Francois One', sans-serif ;
+    list-style-type:style none;
 }
 

@@ -17,7 +17,7 @@ h1 {
 
 h2,
 h3 {
-    font-family: 'Fancois One', sans-serif;
+    font-family: 'Francois One', sans-serif;
 }
 
 h4 {
@@ -43,5 +43,9 @@ p {
     height: 394px;
     border: 1px solid #000;
     background: #C2B222;
+}
+
+a {
+    font-family:'Francois One', sans-serif ;
 }
 

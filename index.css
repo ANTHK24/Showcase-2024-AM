@@ -37,7 +37,8 @@ p {
 
 }
 
-footer {
+.footer {
+    text-align: center;
     width: 3540px;
     height: 394px;
     border: 1px solid #000;

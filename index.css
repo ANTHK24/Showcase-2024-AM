@@ -42,16 +42,27 @@ p {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
     margin-top: 100px;
     font-family: 'Francois One';
     width: auto;
+    max-width: 2030px;
     align-items: center;
     
     /* height: 394px; */
+    font-family: 'Francois One';
+    align-self: center;
     border: 1px solid #000;
     background: #C2B222;
     display: ;
   
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width:auto;
 }
 
 a {
@@ -63,9 +74,22 @@ ul {
     list-style-type: none;
     text-align: center;
     display:inline-block;
+    font-display: flex;
+    font-size: auto;
 }
 
 ol {
-    text-align:center;
-    display: ;
+    text-align:start
+    display:inline;
+    align-content:center;
+    font-size: auto;
+
+
+a {
+    font-family: 'Francois One', sans-serif;
+    list-style-type: style none;
+}
+
+button {
+    font-family: 'Francois One', sans-serif;
 }

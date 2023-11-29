@@ -44,8 +44,10 @@ p {
 .footer {
     margin-top: 100px;
     font-family: 'Francois One';
-    width: 2030px;
-    height: 394px;
+    width: auto;
+    align-items: center;
+    
+    /* height: 394px; */
     border: 1px solid #000;
     background: #C2B222;
     display: ;
@@ -60,7 +62,7 @@ a {
 ul {
     list-style-type: none;
     text-align: center;
-    display: inline;
+    display:inline-block;
 }
 
 ol {

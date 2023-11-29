@@ -39,6 +39,7 @@ p {
 
 .footer {
     font-family: 'Francois One';
+    align-self: center;
     width: 3540px;
     border: 1px solid #000;
     background: #C2B222;

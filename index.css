@@ -45,10 +45,7 @@ p {
     list-style: none;
 }
 
-.about-jurassic {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 a {
     font-family: 'Francois One', sans-serif;

@@ -55,8 +55,7 @@ p {
     margin-top: 100px;
     font-family: 'Francois One';
     width: auto;
-    max-width: 100vmax
-    +;
+    max-width: 100vmax;
     align-items: center;
 
     /* height: 394px; */

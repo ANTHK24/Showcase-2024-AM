@@ -97,3 +97,7 @@ a {
 button {
     font-family: 'Francois One', sans-serif;
 }
+
+.exploration-pass {
+    display: flex;
+}

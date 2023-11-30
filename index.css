@@ -52,7 +52,7 @@ p {
     margin-top: 100px;
     font-family: 'Francois One';
     width: auto;
-    max-width: 2030px;
+    max-width: auto;
     align-items: center;
     
     /* height: 394px; */

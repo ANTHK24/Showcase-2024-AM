@@ -6,7 +6,8 @@
 /*font-family: 'Jurassic Park', sans-serif; */
 /*font-family: 'Francois One', sans-serif; */
 
-html, body {
+html,
+body {
     display: flex;
     flex-direction: column;
     background-color: #F8F8F0;
@@ -58,47 +59,45 @@ p {
     width: auto;
     max-width: auto;
     align-items: center;
-    
+
     /* height: 394px; */
     font-family: 'Francois One';
     align-self: center;
     border: 1px solid #000;
     background: #C2B222;
     display: ;
-  
+
 }
 
 footer {
     display: flex;
     justify-content: center;
-    width:auto;
+    width: auto;
 }
 
 a {
-    font-family:'Francois One', sans-serif ;
-    
+    font-family: 'Francois One', sans-serif;
+
 }
 
 ul {
     list-style-type: none;
     text-align: center;
-    display:inline-block;
+    display: inline-block;
     font-display: flex;
     font-size: auto;
 }
 
 ol {
-    text-align:start
-    align-content:center;
+    text-align: start align-content:center;
     font-size: auto;
 
 
-a {
-    font-family: 'Francois One', sans-serif;
-    list-style-type: style none;
-}
+    a {
+        font-family: 'Francois One', sans-serif;
+        list-style-type: style none;
+    }
 
-button {
-    font-family: 'Francois One', sans-serif;
-}
-
+    button {
+        font-family: 'Francois One', sans-serif;
+    }

@@ -99,3 +99,9 @@ ol {
     button {
         font-family: 'Francois One', sans-serif;
     }
+header {
+    display:inline-block;
+    background-color:rgb(29, 97, 45);
+    width: auto;
+    height: 350px;
+}

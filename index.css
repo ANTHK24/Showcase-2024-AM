@@ -11,7 +11,7 @@ body {
     background-color: #F8F8F0;
     width: 100%;
     height: 100%;
-    margin: 0;
+    margin: 20px;
     padding: 0;
 }
 
@@ -96,8 +96,9 @@ ol {
         list-style-type: style none;
     }
 
-    button {
+    button, a {
         font-family: 'Francois One', sans-serif;
+        padding: 10px 20px;
     }
 header {
     display:inline-block;
@@ -105,3 +106,5 @@ header {
     width: auto;
     height: 350px;
 }
+/* styles for buttons */
+

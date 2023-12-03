@@ -69,6 +69,7 @@ p {
 
 footer {
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
     width: auto;
 }

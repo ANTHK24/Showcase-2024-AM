@@ -102,8 +102,11 @@ li {
 
 .seasonal-passes {
     display: flex;
+    flex-direction: column;
 }
 
 .basic-passes {
     display: flex;
+    order: 1;
+    flex-direction: column-reverse;
 }

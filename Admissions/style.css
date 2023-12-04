@@ -13,12 +13,11 @@ h4,
 p {
     margin: 0;
     padding: 0;
-    background-color: #F8F8F0;
 }
 
 /* header & fonts */
-h1::before,
-h1::after {
+#home_page h1::before,
+#home_page h1::after {
     display: inline-block;
     height: 3em;
     width: 3em;
@@ -73,12 +72,14 @@ h4 {
     align-self: center;
     border: 1px solid #000;
     background: #C2B222;
-
-
 }
 
 footer {
     display: flex;
+}
+
+li {
+    list-style-type: none;
 }
 
 /* passes */

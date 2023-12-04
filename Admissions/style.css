@@ -20,9 +20,9 @@ p {
 #home_page h1::after {
     display: inline-block;
     height: 3em;
-    width: 3em;
+    width: 3.8em;
     background-image: url(images/jp_logo.png);
-    background-size: cover;
+    background-size:cover;
     content: "";
     transform: translateY(7%);
     justify-content: center;
@@ -76,10 +76,12 @@ h4 {
 
 footer {
     display: flex;
+
 }
 
 li {
     list-style-type: none;
+    text-align: center;
 }
 
 /* passes */

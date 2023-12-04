@@ -1,30 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
-@import url('https://fonts.cdnfonts.com/css/jurassic-park');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Comic+Neue&family=Dosis&family=Glory:wght@300&family=Henny+Penny&family=Josefin+Sans&family=Libre+Baskerville:ital@1&family=Mohave:ital,wght@0,400;1,300&family=Nunito+Sans:opsz,wght@6..12,600&family=Roboto+Condensed&display=swap');
 
 
 /*font-family: 'Jurassic Park', sans-serif; */
 /*font-family: 'Francois One', sans-serif; */
 
-html,
-body {
-    background-color: #F8F8F0;
-    width: 100%;
-    height: 100%;
-    margin: 20px;
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
     padding: 0;
+    background-color: #F8F8F0;
 }
 
+/* header & fonts */
+h1::before,
+h1::after {
+    display: inline-block;
+    height: 3em;
+    width: 3em;
+    background-image: url(images/jp_logo.png);
+    background-size: cover;
+    content: "";
+    transform: translateY(7%);
+    justify-content: center;
+}
 
+header {
+    font-family: 'Francois One';
+    text-align: center;
+    box-sizing: content-box;
+    width: 100%;
 
-h1 {
-    font-family: 'Jurassic Park', sans-serif;
-    font-size: 96px;
+    border: 1px solid #000;
+    background: #C2B222;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 h2,
 h3 {
     font-family: 'Francois One', sans-serif;
+}
+
+p {
+    font-family: 'Glory';
 }
 
 h4 {
@@ -38,74 +60,34 @@ h4 {
     line-height: normal;
 }
 
-p {
-
-    font-family: 'Glory', sans-serif;
-
-}
-
-.nav-bar {
-    display: inline-block;
-    text-align: center;
-}
-
+/* footer code */
 .footer {
     display: flex;
     justify-content: center;
     margin-top: 100px;
     font-family: 'Francois One';
-    width: auto;
-    max-width: 100vmax;
-    align-items: center;
+
 
     /* height: 394px; */
     font-family: 'Francois One';
     align-self: center;
     border: 1px solid #000;
     background: #C2B222;
-    display: ;
+
 
 }
 
 footer {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    width: auto;
 }
 
-a {
-    font-family: 'Francois One', sans-serif;
+/* passes */
 
+.seasonal_passes,
+.basic_passes {
+    padding: 20px;
 }
 
-ul {
-    list-style-type: none;
-    text-align: center;
-    display: inline-block;
-    font-display: flex;
-    font-size: auto;
+.article {
+    background-color: #FFFFFF;
 }
-
-ol {
-    text-align: start align-content:center;
-    font-size: auto;
-
-
-    a {
-        font-family: 'Francois One', sans-serif;
-        list-style-type: style none;
-    }
-
-    button, a {
-        font-family: 'Francois One', sans-serif;
-        padding: 10px 20px;
-    }
-header {
-    display:inline-block;
-    background-color:rgb(29, 97, 45);
-    width: auto;
-    height: 350px;
-}
-/* styles for buttons */
-

@@ -101,3 +101,19 @@ li {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.prodBtn, .removeBtn, #emptyCart {
+    display: block;
+    float: left;
+    background-color: #F00;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 0.5em;
+    transition: background-color 500ms ease;
+}
+
+.product {
+  
+    position: relative;
+}

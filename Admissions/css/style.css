@@ -5,7 +5,7 @@
 /*font-family: 'Jurassic Park', sans-serif; */
 /*font-family: 'Francois One', sans-serif; */
 html {
-    background-color:  #F8F8F0;
+    background-color: #F8F8F0;
 }
 
 body,
@@ -90,8 +90,6 @@ li {
 .product {
     padding: 20px;
 }
-
-
 
 @media only screen and (max-width: 640px) {
     #products {

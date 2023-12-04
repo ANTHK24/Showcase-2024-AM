@@ -4,6 +4,9 @@
 
 /*font-family: 'Jurassic Park', sans-serif; */
 /*font-family: 'Francois One', sans-serif; */
+html {
+    background-color:  #F8F8F0;
+}
 
 body,
 h1,
@@ -88,9 +91,7 @@ li {
     padding: 20px;
 }
 
-.product {
-    background-color: #FFFFFF;
-}
+
 
 @media only screen and (max-width: 640px) {
     #products {

@@ -4,6 +4,9 @@
 
 /*font-family: 'Jurassic Park', sans-serif; */
 /*font-family: 'Francois One', sans-serif; */
+html {
+    background-color: #F8F8F0;
+}
 
 body,
 h1,
@@ -86,12 +89,13 @@ li {
 
 /* passes */
 
-.seasonal_passes,
-.basic_passes {
+.product {
     padding: 20px;
 }
 
-.article {
-    background-color: #FFFFFF;
+@media only screen and (max-width: 640px) {
+    #products {
+        padding: 1em;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
-

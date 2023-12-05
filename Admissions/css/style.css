@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Comic+Neue&family=Dosis&family=Glory:wght@300&family=Henny+Penny&family=Josefin+Sans&family=Libre+Baskerville:ital@1&family=Mohave:ital,wght@0,400;1,300&family=Nunito+Sans:opsz,wght@6..12,600&family=Roboto+Condensed&display=swap');
 
-
-/*font-family: 'Jurassic Park', sans-serif; */
-/*font-family: 'Francois One', sans-serif; */
 html {
     background-color: #F8F8F0;
 }
@@ -36,12 +33,12 @@ header {
     text-align: center;
     box-sizing: content-box;
     width: 100%;
-
     border: 1px solid #000;
     background: #C2B222;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+/* basic fonts*/
 h2,
 h3 {
     font-family: 'Francois One', sans-serif;
@@ -97,6 +94,7 @@ li {
     content: "$ ";
 }
 
+/* media query*/
 @media only screen and (max-width: 640px) {
     #products {
         padding: 1em;
@@ -131,4 +129,22 @@ li {
     align-items: flex-start;
 }
 
-/* cart */ 
+/* cart */
+
+.product {
+    border: solid 0.5px;
+    padding: 0.5rem;
+}
+.prodBtn, .removeBtn, #emptyCart {
+    display: block;
+    background-color: #F00;
+    padding: 1em;
+    float: left;
+    color: white;
+    padding: 0.2em;
+}
+
+.prodPrice {
+    display: inline-block;
+    margin-top: 0.5em;
+}

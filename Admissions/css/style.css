@@ -130,3 +130,21 @@ li {
 }
 
 /* cart */
+
+.product {
+    border: solid 0.5px;
+    padding: 0.5rem;
+}
+.prodBtn, .removeBtn, #emptyCart {
+    display: block;
+    background-color: #F00;
+    padding: 1em;
+    float: left;
+    color: white;
+    padding: 0.2em;
+}
+
+.prodPrice {
+    display: inline-block;
+    margin-top: 0.5em;
+}

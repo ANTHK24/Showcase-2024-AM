@@ -137,7 +137,14 @@ li {
 }
 
 /* cart */
-
+.cart {
+   position: relative;
+    display: flex;
+   align-items:flex-end;
+    justify-content: start;
+    width: 25.6px;
+    height: 23.1px;
+}
 .product {
     padding: 20px;
     border: solid 1px black;

@@ -15,6 +15,10 @@ p {
     padding: 0;
 }
 
+body {
+    display: grid;
+}
+
 /* header & fonts */
 #home_page h1::before,
 #home_page h1::after {
@@ -132,10 +136,13 @@ li {
 /* cart */
 
 .product {
-    border: solid 0.5px;
-    padding: 0.5rem;
+    padding: 20px;
+    border: solid 1px black;
 }
-.prodBtn, .removeBtn, #emptyCart {
+
+.prodBtn,
+.removeBtn,
+#emptyCart {
     display: block;
     background-color: #F00;
     padding: 1em;

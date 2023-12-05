@@ -139,8 +139,8 @@ li {
 .cart {
    position: relative;
     display: flex;
-   align-items:flex-end;
-    justify-content: start;
+   align-items: flex-end;
+   left: 1900px;
     width: 25.6px;
     height: 23.1px;
 }

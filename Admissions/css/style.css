@@ -23,7 +23,7 @@ p {
 #home_page h1::after {
     display: inline-block;
     height: 3em;
-    width: 3em;
+    width: 3.8em;
     background-image: url(images/jp_logo.png);
     background-size: cover;
     content: "";
@@ -79,10 +79,12 @@ h4 {
 
 footer {
     display: flex;
+
 }
 
 li {
     list-style-type: none;
+    text-align: center;
 }
 
 /* passes */
@@ -102,18 +104,31 @@ li {
     }
 }
 
-.prodBtn, .removeBtn, #emptyCart {
-    display: block;
-    float: left;
-    background-color: #F00;
-    color: white;
-    padding: 1em;
-    text-decoration: none;
-    border-radius: 0.5em;
-    transition: background-color 500ms ease;
+/*pricing*/
+.prodPrice::before {
+    content: "$ ";
 }
 
-.product {
-  
-    position: relative;
+/* flexbox for passes*/
+.seasonal-passes {
+    display: flex;
+    flex-direction: column;
 }
+
+.basic-passes {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* images */
+
+.images,
+.images2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* cart */ 

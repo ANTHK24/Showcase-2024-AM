@@ -100,6 +100,12 @@ li {
     }
 }
 
+/*pricing*/
+.prodPrice::before {
+    content: "$ ";
+}
+
+/* flexbox for passes*/
 .seasonal-passes {
     display: flex;
     flex-direction: column;
@@ -107,6 +113,17 @@ li {
 
 .basic-passes {
     display: flex;
-    order: 1;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
+
+
+/* images */
+
+.images,
+.images2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+

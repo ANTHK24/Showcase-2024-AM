@@ -127,20 +127,23 @@ li {
 .images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
+    margin-top: 20px;
 }
 
 .images2 {
     display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 /* cart */
 .cart {
    position: relative;
-    display: flex;
+    display:flex;
    align-items: flex-end;
-   left: 1900px;
     width: 25.6px;
     height: 23.1px;
 }
@@ -171,15 +174,3 @@ li {
 a {
     font-family: 'Francois One';
 }
-
-.basic-passes, .seasonal-passes {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  
-  .basic-passes {
-    flex-direction: row;
-    justify-content: space-between;
-  }

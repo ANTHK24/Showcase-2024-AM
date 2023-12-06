@@ -137,13 +137,14 @@ li {
 
 /* cart */
 .cart {
-   position: relative;
+    position: relative;
     display: flex;
-   align-items: flex-end;
-   left: 1900px;
+    align-items: flex-end;
+    left: 1900px;
     width: 25.6px;
     height: 23.1px;
 }
+
 .product {
     padding: 20px;
     border: solid 1px black;
@@ -154,7 +155,7 @@ li {
 .removeBtn,
 #emptyCart {
     display: block;
-    background-color:#ff0008;
+    background-color: #ff0008;
     padding: 1em;
     float: left;
     color: white;
@@ -172,14 +173,12 @@ a {
     font-family: 'Francois One';
 }
 
-.basic-passes, .seasonal-passes {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 
-  
-  .basic-passes {
+.basic-passes {
     flex-direction: row;
     justify-content: space-between;
-  }
+}
+
+.basic-seasonal {
+    display: flex;
+}

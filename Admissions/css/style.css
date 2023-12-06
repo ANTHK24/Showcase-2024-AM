@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 
+
 html {
     background-color: #F8F8F0;
 }
+
 
 body,
 h1,
@@ -14,9 +16,11 @@ p {
     padding: 0;
 }
 
+
 body {
     display: grid;
 }
+
 
 /* header & fonts */
 #home_page h1::before,
@@ -31,6 +35,7 @@ body {
     justify-content: center;
 }
 
+
 header {
     font-family: 'Francois One';
     text-align: center;
@@ -41,15 +46,18 @@ header {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+
 /* basic fonts*/
 h2,
 h3 {
     font-family: 'Francois One', sans-serif;
 }
 
+
 p {
     font-family: 'Glory';
 }
+
 
 h4 {
     /* liability fee styling */
@@ -62,12 +70,15 @@ h4 {
     line-height: normal;
 }
 
+
 /* footer code */
 .footer {
     display: flex;
     justify-content: center;
     margin-top: 100px;
     font-family: 'Francois One';
+
+
 
 
     /* height: 394px; */
@@ -77,25 +88,32 @@ h4 {
     background: #C2B222;
 }
 
+
 footer {
     display: flex;
 
+
 }
+
 
 li {
     list-style-type: none;
     text-align: center;
 }
 
+
 /* passes */
+
 
 .product {
     padding: 20px;
 }
 
+
 .prodPrice::before {
     content: "$";
 }
+
 
 /* media query*/
 @media only screen and (max-width: 640px) {
@@ -105,10 +123,12 @@ li {
     }
 }
 
+
 /*pricing*/
 .prodPrice::before {
     content: " $";
 }
+
 
 /* flexbox for passes*/
 .seasonal-passes {
@@ -116,43 +136,48 @@ li {
     flex-direction: column;
 }
 
+
 .basic-passes {
     display: flex;
     flex-direction: column;
 }
 
 
+
+
 /* images */
+
 
 .images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
-    margin-top: 20px;
 }
+
 
 .images2 {
     display: flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    align-items: flex-start;
 }
+
 
 /* cart */
 .cart {
-   position: relative;
-    display:flex;
-   align-items: flex-end;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    left: 1900px;
     width: 25.6px;
     height: 23.1px;
 }
+
 
 .product {
     padding: 20px;
     border: solid 1px black;
     border-radius: 0.5rem;
 }
+
 
 .prodBtn,
 .removeBtn,
@@ -166,12 +191,27 @@ li {
     border-radius: 0.5rem;
 }
 
+
 .prodPrice {
     display: inline-block;
     margin-top: 0.5em;
     font-family: Francois One;
 }
 
+
 a {
     font-family: 'Francois One';
+}
+
+
+
+
+.basic-passes {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.basic-seasonal {
+    display: flex;
 }

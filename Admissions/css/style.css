@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
-
+* {
+    box-sizing: border-box;
+}
 
 html {
     background-color: #F8F8F0;
@@ -213,5 +215,16 @@ a {
 
 
 .basic-seasonal {
+    display: flex;
+    width: 60%;
+}
+
+.images, .images2 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.content {
     display: flex;
 }

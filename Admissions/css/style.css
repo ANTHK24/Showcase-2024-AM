@@ -52,12 +52,13 @@ header {
 
 /* basic fonts*/
 h2 {
-    padding:5px;
+    padding: 5px;
     border: solid 1px #f8f8f0;
     background-color: #F8F8F0;
     font-family: Francois One;
     text-align: center;
 }
+
 h3 {
     font-family: 'Francois One', sans-serif;
 }
@@ -140,18 +141,10 @@ li {
 
 
 /* flexbox for passes*/
-.seasonal-passes {
-    display: flex;
-    flex-direction: column;
-}
-
-
+.seasonal-passes,
 .basic-passes {
     display: flex;
-    flex-direction: column;
 }
-
-
 
 
 /* images */
@@ -227,6 +220,14 @@ a {
 .basic-seasonal {
     display: flex;
     width: 60%;
+}
+
+.basic-passes {
+    display: flex;
+}
+
+.seasonal-passes {
+    display: flex;
 }
 
 .images,

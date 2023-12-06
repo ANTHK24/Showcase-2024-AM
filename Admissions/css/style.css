@@ -206,6 +206,7 @@ a {
     font-family: 'Francois One';
 }
 
+
 .basic-seasonal {
     display: flex;
     width: 60%;
@@ -218,6 +219,7 @@ a {
     width: 20%;
 }
 
+/* fixes sizing*/
 .images img,
 .images2 img {
     width: 100%;

@@ -171,3 +171,14 @@ li {
 a {
     font-family: 'Francois One';
 }
+
+.basic-passes, .seasonal-passes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  .basic-passes {
+    flex-direction: row;
+  }

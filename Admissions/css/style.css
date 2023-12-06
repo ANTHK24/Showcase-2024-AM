@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Comic+Neue&family=Dosis&family=Glory:wght@200;300;400&family=Henny+Penny&family=Josefin+Sans&family=Libre+Baskerville:ital@1&family=Mohave:ital,wght@0,400;1,300&family=Nunito+Sans:opsz,wght@6..12,600&family=Roboto+Condensed&display=swap');
 
 * {
     box-sizing: border-box;
@@ -208,7 +209,11 @@ li {
 .prodPrice {
     display: inline-block;
     margin-top: 0.5em;
-    font-family: Francois One;
+    font-family: 'Francois One';
+}
+
+.prodDesc {
+    font-family: 'Glory';
 }
 
 

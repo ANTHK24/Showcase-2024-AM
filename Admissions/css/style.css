@@ -51,7 +51,13 @@ header {
 
 
 /* basic fonts*/
-h2,
+h2 {
+    padding:5px;
+    border: solid 1px #f8f8f0;
+    background-color: #F8F8F0;
+    font-family: Francois One;
+    text-align: center;
+}
 h3 {
     font-family: 'Francois One', sans-serif;
 }
@@ -154,13 +160,14 @@ li {
 .images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
 
 .images2 {
     display: flex;
+    justify-content: space-around;
 }
 
 

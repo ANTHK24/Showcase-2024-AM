@@ -94,7 +94,7 @@ li {
 }
 
 .prodPrice::before {
-    content: " $";
+    content: "$";
 }
 
 /* media query*/

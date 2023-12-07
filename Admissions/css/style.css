@@ -89,9 +89,6 @@ h4 {
     margin-top: 100px;
     font-family: 'Francois One';
 
-
-
-
     /* height: 394px; */
     font-family: 'Francois One';
     align-self: center;
@@ -99,11 +96,8 @@ h4 {
     background: #C2B222;
 }
 
-
 footer {
     display: flex;
-
-
 }
 
 
@@ -137,7 +131,7 @@ li {
 
 /*pricing*/
 .prodPrice::before {
-    content: " $";
+    content: "$";
 }
 
 
@@ -146,6 +140,8 @@ li {
 .basic-passes {
     display: flex;
 }
+
+
 
 
 /* images */
@@ -178,7 +174,7 @@ li {
 
 .product {
     margin-top: 60px;
-    padding: 20px;
+    padding: 10px;
     border: solid 1px black;
     background-color: #C2B222;
     border-radius: 0.5rem;
@@ -186,14 +182,14 @@ li {
 
 .product2 {
     margin-top: 60px;
-    padding: 20px;
+    padding: 10px;
     border: solid 1px rgb(0, 0, 0);
     background-color: #f8f8f0;
     border-radius: 0.5rem;
-    height:155px;
+    height:160px;
 }
 
-s
+
 .prodBtn,
 .removeBtn,
 #emptyCart {
@@ -206,7 +202,6 @@ s
     border-radius: 0.5rem;
 }
 
-.addToCart 
 
 .prodPrice {
     display: inline-block;
@@ -254,4 +249,12 @@ a {
 
 .content {
     display: flex;
+}
+
+form {
+    font-family: 'Francois One';
+}
+
+h1 {
+    font-family: 'Francois One';
 }

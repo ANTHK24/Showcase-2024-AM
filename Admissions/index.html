@@ -1,92 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="images/jp_logo.png">
-  <title>Jurassic Park Admissions</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/jurassic_pay.css" />
+  <title>Jurassic Park</title>
 </head>
 
-
-<body id="home_page">
+<body id="index">
   <header class="header">
     <h1>Jurassic Park Admissions</h1>
-    <a href="js/cart.js"><span id="cartItemCount"></span><img class="cart" src="images/shopping-cart-icon-512x462-yrde1eu0.png"></a>
   </header>
-  <!--Images-->
- <section class="content">
-  <section class="images">
-    <img src="images/jurassic_boat.png" alt="Jurassic Boat">
-    <img src="images/jurassic_dino.png" alt="Jurassic Park Dino Feeding">
-    <img src="images/jurassic_dome.png" alt="Jurassic Park Dome">
-  </section>
-  <section class="basic-seasonal">
-    <section class="basic-passes">
-      <section class="product">
-        <h2>Basic Passes</h2>
-        <article class="product2">
-          <h3>Exploration Pass</h3>
-          <p class="prodDesc">The exploration pass lets you enter the basic park zones with a guided tour.</p>
-          <span class="prodPrice">250</span><a href="" class="addToCart">Add to Cart</a>
-        </article>
-        <article class="product2">
-          <h3>Expedition Pass</h3>
-          <p class="prodDesc">Features of the expedition pass included with yearly access and a 10% discount on park
-            services.</p>
-          <span class="prodPrice">300</span><a href="" class="addToCart">Add to Cart</a>
-        </article>
-        <article class="product2">
-          <h3>Executive Pass</h3>
-          <p class="prodDesc">The highest tier with helicopter and lab tour, a week-long stay at the park, front-row seating
-            at events, and
-            more.</p>
-          <span class="prodPrice">500</span><a href="" class="addToCart">Add to Cart</a>
-        </article>
-      </section>
-    </section>
-      <!--Basic Passes - Jurassic Park-->
-    <section class="seasonal-passes">
-      <section class="product">
-        <h2>Seasonal Passes</h2>
-        <article class="product2">
-          <h3>Seasonal Explorer</h3>
-          <p class="prodDesc">Features of the exploration pass included with yearly access and a 5% discount on park
-            services.</p>
-          <span class="prodPrice">1,000</span><a href="" class="addToCart">Add to Cart</a>
-        </article>
-        <article class="product2">
-          <h3>Seasonal Expedition Pass</h3>
-          <p class="prodDesc">Features of the expedition pass included with yearly access and a 10% discount on park
-            services.</p>
-          <span class="prodPrice">2,000</span><a href="" class="addToCart">Add to Cart</a>
-        </article>
-        <article class="product2">
-          <h3>Seasonal Executive</h3>
-          <p class="prodDesc">The highest tier of the seasonal passes which includes all the benefits of the executive pass
-            free access to
-            all park services.</p>
-          <span class="prodPrice">3,000</span><a href="" class="addToCart">Add to Cart</a>
-        </article>
-      </section>
-    </section>
-  </section>
-  <section class="images2">
-    <img src="images/jurassic_helicopter.png" alt="Jurassic Park Helicopter">
-    <img src="images/jurassic_tour.png" alt="Jurassic Park Tours">
-    <img src="images/jurassic.png" alt="Jurassic Theme Park">
-  </section>
- </section>
+  <section class="jurassic_pay">
+    <h1>Buy Tickets</h1>
+    <form action="tickets.html">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <label for="email">Email Address</label><br>
+      <input type="text" id="email" name="email"><br>
+      <label for="billing">Billing Address</label><br>
+      <input type="text" id="billing" name="billing"><br>
 
-
-  <section class="liability-fee">
-    <h4>
-      There is a $300 insurance and liability fee for any injuries that may occur when interacting with prehistoric
-      wildlife. Extra taxes apply for all tier levels.
-    </h4>
+      <label for="phone">Phone Number</label><br>
+      <input type="text" id="phone" name="phone"><br>
+      <input type="submit" value="Submit">
+    </form>
+    <p class="index-p">Your Jurassic Pay ID and PIN number will be emailed to you. Please check your spam folder or contact
+      JurassicSupport@gmail.com if
+      you dont receive the email containing your information within 24 hours.</p>
   </section>
+
   <section class="footer">
     <footer>
       <ul>
@@ -115,6 +64,7 @@
       </ul>
     </footer>
   </section>
+
 </body>
 
 </html>

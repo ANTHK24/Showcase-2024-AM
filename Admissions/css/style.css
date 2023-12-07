@@ -89,6 +89,9 @@ h4 {
     margin-top: 100px;
     font-family: 'Francois One';
 
+
+
+
     /* height: 394px; */
     font-family: 'Francois One';
     align-self: center;
@@ -96,8 +99,11 @@ h4 {
     background: #C2B222;
 }
 
+
 footer {
     display: flex;
+
+
 }
 
 
@@ -131,7 +137,7 @@ li {
 
 /*pricing*/
 .prodPrice::before {
-    content: "$";
+    content: " $";
 }
 
 
@@ -140,8 +146,6 @@ li {
 .basic-passes {
     display: flex;
 }
-
-
 
 
 /* images */
@@ -174,7 +178,7 @@ li {
 
 .product {
     margin-top: 60px;
-    padding: 10px;
+    padding: 20px;
     border: solid 1px black;
     background-color: #C2B222;
     border-radius: 0.5rem;
@@ -182,14 +186,14 @@ li {
 
 .product2 {
     margin-top: 60px;
-    padding: 10px;
+    padding: 20px;
     border: solid 1px rgb(0, 0, 0);
     background-color: #f8f8f0;
     border-radius: 0.5rem;
-    height:160px;
+    height:155px;
 }
 
-
+s
 .prodBtn,
 .removeBtn,
 #emptyCart {
@@ -202,6 +206,7 @@ li {
     border-radius: 0.5rem;
 }
 
+.addToCart 
 
 .prodPrice {
     display: inline-block;
@@ -249,6 +254,7 @@ a {
 
 .content {
     display: flex;
+<<<<<<< HEAD
 }
 
 form {
@@ -267,4 +273,6 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+=======
+>>>>>>> parent of 7d878e1 (started to style jurassic pay screens)
 }

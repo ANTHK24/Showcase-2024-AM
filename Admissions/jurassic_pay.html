@@ -2,6 +2,7 @@
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="style.css" />
 
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,15 +13,27 @@
 <body>
   <h1>Jurrasic Park Admissions</h1>
 
-  <section class="expedition_pass">
-    <h1>Expedtions Pass</h1>
-    <p>All features of the exploration pass included, with the ability to access more sections of the park.
-      With the expedition pass, you gain the ability to stay at the park’s hotel or camp out in a special zone dedicated
-      for expedition pass holders. You will also gain access to a rental off-road vehicle that will allow you to explore
-      the park further with a tour guide. Finally, you get priority access to all park accommodations and skip the
-      lines.</p>
-    <p>There is a $300 liability fee for any injuries that may occur when interacting with prehistoric wildlife. </p>
-    <a href="calendar.html">Continue to select dates</a>
+
+
+  <section class="jurassic_pay">
+    <h1>Buy Tickets</h1>
+    <form action="expedition_pass.html">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <label for="email">Email Address</label><br>
+      <input type="text" id="email" name="email"><br>
+      <label for="billing">Billing Address</label><br>
+      <input type="text" id="billing" name="billing"><br>
+
+      <label for="phone">Phone Number</label><br>
+      <input type="text" id="phone" name="phone"><br>
+      <input type="submit" value="Submit">
+    </form>
+    <p>Your Jurassic Pay ID and PIN number will be emailed to you. Please check your spam folder or contact
+      JurassicSupport@gmail.com if
+      you dont receive the email containing your information within 24 hours.</p>
   </section>
 
   <section class="footer">

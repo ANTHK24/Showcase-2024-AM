@@ -263,3 +263,14 @@ h4 {
     font-weight: 400;
     line-height: normal;
 }
+
+
+/* add to cart button */
+
+button {
+    width: 15rem;
+    height: 5rem;
+    font-size: 2rem;
+    color: #f8f8f0;
+    background-color: #236154;
+}

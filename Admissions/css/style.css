@@ -272,6 +272,8 @@ button {
     height: 5rem;
     font-size: 2rem;
     color: #f8f8f0;
+    font-family: Francois One;
+    font-weight: 400;
     background-color: #236154;
 }
 
@@ -303,6 +305,7 @@ button {
 .paragraph {
     font-family: 'Glory';
     font-size: 20px;
+    
 }
 
 .about {

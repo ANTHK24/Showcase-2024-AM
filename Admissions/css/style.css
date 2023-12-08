@@ -273,18 +273,21 @@ button {
     font-size: 2rem;
     color: #f8f8f0;
     background-color: #236154;
+    margin: 30px;
+    font-family: Francois One;
 }
 
 .ticket {
     display: flex;
     text-align: center;
     background-color: #C2B222;
-    width: 861px;
-    height: 641px;
+    width: 600px;
+    height: 300px;
     margin: 0 auto;
     margin-top: 1em;
 
 }
+
 
 .executive-pass {
     justify-content: center;
@@ -297,4 +300,12 @@ button {
     align-items: center;
     width: 100vw;
     height: 75vh;
+}
+
+.pass-page {
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }

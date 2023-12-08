@@ -165,16 +165,7 @@ li {
 }
 
 
-/* cart */
-.cart {
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    left: 1900px;
-    width: 25.6px;
-    height: 23.1px;
-}
-
+/* products */
 
 .product {
     margin-top: 60px;
@@ -253,7 +244,6 @@ a {
 
 .content {
     display: flex;
-<<<<<<< HEAD
 }
 
 form {
@@ -272,6 +262,4 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-=======
->>>>>>> parent of 7d878e1 (started to style jurassic pay screens)
 }

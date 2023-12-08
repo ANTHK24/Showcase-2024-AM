@@ -262,6 +262,7 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 30px;
 }
 
 
@@ -304,22 +305,21 @@ button {
     height: 75vh;
 }
 
-
-.paragraph {
-    font-family: 'Glory';
-    font-size: 20px;
-    
-}
-
-.about {
-    font-size: 60px;
-}
-
-
-
-.wrapper {
-    display: flex;
-    flex-flow: column wrap;
+.pass-page {
+    margin: 50px;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
+}
+
+.select {
+    align-items: center;
+    font-family: Francois One;
+    text-align: center;
+}
+
+.checkout-button {
+   align-items:center;
+   margin-left: 895px;
 }

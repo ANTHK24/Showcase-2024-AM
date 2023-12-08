@@ -274,3 +274,27 @@ button {
     color: #f8f8f0;
     background-color: #236154;
 }
+
+.ticket {
+    display: flex;
+    text-align: center;
+    background-color: #C2B222;
+    width: 861px;
+    height: 641px;
+    margin: 0 auto;
+    margin-top: 1em;
+
+}
+
+.executive-pass {
+    justify-content: center;
+
+}
+
+.white-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 75vh;
+}

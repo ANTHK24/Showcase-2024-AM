@@ -83,29 +83,16 @@ h4 {
 
 
 /* footer code */
-.footer {
+footer {
     display: flex;
     justify-content: center;
     margin-top: 100px;
     font-family: 'Francois One';
-
-
-
-
-    /* height: 394px; */
     font-family: 'Francois One';
     align-self: center;
     border: 1px solid #000;
     background: #C2B222;
 }
-
-
-footer {
-    display: flex;
-
-
-}
-
 
 li {
     list-style-type: none;
@@ -114,7 +101,6 @@ li {
 
 
 /* passes */
-
 
 .product {
     padding: 20px;
@@ -133,13 +119,6 @@ li {
         grid-template-columns: repeat(1, 1fr);
     }
 }
-
-
-/*pricing*/
-.prodPrice::before {
-    content: " $";
-}
-
 
 /* flexbox for passes*/
 .seasonal-passes,
@@ -181,7 +160,7 @@ li {
     border: solid 1px rgb(0, 0, 0);
     background-color: #f8f8f0;
     border-radius: 0.5rem;
-    height:160px;
+    height: 160px;
 }
 
 

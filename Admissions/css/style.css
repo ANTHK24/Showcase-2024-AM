@@ -290,3 +290,16 @@ button {
 .about {
     font-size: 60px;
 }
+
+label {
+    display: inline-block;
+    font-family: 'Francois One';
+    font-size: 25px;
+
+}
+
+.check-end {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}

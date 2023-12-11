@@ -9,7 +9,6 @@ html {
     background-color: #F8F8F0;
 }
 
-
 body,
 h1,
 h2,
@@ -20,11 +19,9 @@ p {
     padding: 0;
 }
 
-
 body {
     display: grid;
 }
-
 
 /* header & fonts */
 #home_page h1::before,
@@ -39,7 +36,6 @@ body {
     justify-content: center;
 }
 
-
 header {
     font-family: 'Francois One';
     text-align: center;
@@ -49,7 +45,6 @@ header {
     background: #C2B222;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-
 
 /* basic fonts*/
 h2 {
@@ -280,7 +275,6 @@ button {
     height: 75vh;
 }
 
-
 .paragraph {
     font-family: 'Glory';
     font-size: 20px;
@@ -297,9 +291,46 @@ label {
     font-size: 25px;
 
 }
-
+/* checkout button*/
 .check-end {
     display: flex;
     justify-content: center;
     margin: 2em;
+}
+
+/* cart styling */
+.item {
+    background-color: #d7d3d6;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 1.5em;
+    width: 20%;
+    margin: 1em;
+}
+
+.item-info {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.executive {
+    background-color: #d7d3d6;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 1.5em;
+    width: 20%;
+    margin: 1em;
+}
+
+.executive-info {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
 }

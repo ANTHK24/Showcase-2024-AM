@@ -285,7 +285,7 @@ button {
 
 label {
     display: inline-block;
-    font-family: 'Francois One';
+    font-family: 'Francois One', sans-serif;
     font-size: 25px;
 
 }
@@ -298,13 +298,9 @@ label {
 
 /* cart styling */
 .item {
+    padding: 15px;
     background-color: #d7d3d6;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    padding: 1.5em;
-    width: 20%;
-    margin: 1em;
+    width: 50%;
 }
 
 .item-info {
@@ -313,6 +309,8 @@ label {
     align-items: center;
     justify-content: center;
     font-size: 2em;
+    padding: 10px;
+    flex-wrap: wrap;
 }
 
 .executive {
@@ -334,9 +332,31 @@ label {
 }
 
 .wrapper {
-    display: grid;
+    display: flex;
     align-items: center;
     place-items: center;
+    flex-flow: row wrap;
+    width: 60vw;
+    margin: 0 auto;
 }
 
+select {
+    font-family: Glory;
+    background-color: #F8F8F0;
+}
+ 
 /*checkout page styling*/
+
+.label2 {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.input2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #236154;
+    width: 80%
+}

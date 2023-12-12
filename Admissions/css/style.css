@@ -81,7 +81,7 @@ h4 {
 h5 {
     font-family: Francois One;
     font-size:16px;
-    margin-left: 200px;
+    padding: 10px;
     color:#ff0008
     
 }
@@ -220,6 +220,7 @@ a {
 
 form {
     font-family: 'Francois One';
+ 
 }
 
 h1 {
@@ -254,8 +255,13 @@ button {
     font-family: Francois One;
     font-weight: 400;
     background-color: #236154;
+    
     margin: 30px;
     font-family: Francois One;
+}
+
+button:hover {
+    background-color: #4e887a;
 }
 
 .ticket {
@@ -365,22 +371,31 @@ select {
  
 /*checkout page styling*/
 
-.label2 {
+.checkout-page {
+    background-color:#23615346;
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
-    margin-left: 200px;
-    padding-top: 40px;
+    place-items:center;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.label2 {
+    padding:10px;
+    padding: 10px 10px 10px 30px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .input2 {
+    padding:10px;
+    width: 50%;
     font-family: Glory;
     font-weight: 600;
     font-size: 20px;
     color: #000000;
-    padding-bottom: 10px;
-    margin-left: 200px;
     background-color: #ffffff;
-    width: 
 }
 
 .country {
@@ -388,5 +403,4 @@ select {
     font-size: 20px;
     font-weight: 600;
     background-color: #ffffff;
-    margin-left: 200px;
 }

@@ -17,16 +17,35 @@
   </header>
 
   <section class = "payment">
-    <section class="payment_method">
-      <h1>Payment Method - Jurassic Pay</h1>
-      <form action="checkout.html">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <label for="JP">Jurassic Pay ID</label><br>
-        <input type="text" id="JP" name="JP"><br>
-      </form>
+    <section class="jurassic">
+      <section class="step-one">
+          <h2>Step One: Enter login information</h2>
+        <form action="checkout.html">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="Ian"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Malcolm"><br><br>
+          <label for="JP">Jurassic Pay ID</label><br>
+          <input type="text" id="JP" name="JP" value="ian_malcolm@jurassicpark.org"><br>
+          <label for="JP">Jurassic Pay PIN</label><br>
+          <input type="text" id="JP" name="JP" value="11.20.1990"><br>
+          <!--fun easter egg: 11.20.1990 is the release date of the Jurassic Park Novel.-->
+        </form>
+      </section>
+      <section class="step-two">
+        <h2>Step Two: Choose a date you want to visit Jurassic Park</h2>
+        <input type="date">
+      </section>
+      <section class="step-three">
+        <h2>Step Three: Agree to our terms and service</h2>
+        <p><b>By buying tickets to Jurassic Park, you have signed a waiver and paid a liability fee to any
+          possible thefts,
+          losses, injuries, or deaths. Further, you will not be compensated for previous list when experiencing
+          Expeditions as well. You may not purchase or partake in Expeditions without agreement to the Terms and
+          Conditions you signed before as well.Please view the terms and conditions page before proceeding.</b>
+      </p>
+        <a href="/Admissions/cart/tos.html">Terms and Conditions</a>
+      </section>
       <section class="check-end">
         <a href='/Admissions/cart/thank-you.html'>
           <button class="checkout-button">
@@ -34,15 +53,7 @@
           </button>
         </a>
       </section>
-  
-      <p><b> NOTICE: By buying tickets to Jurassic Park, you have signed a waiver and paid a liability fee to any
-          possible thefts,
-          losses, injuries, or deaths. Further, you will not be compensated for previous list when experiencing
-          Expeditions as well. You may not purchase or partake in Expeditions without agreement to the Terms and
-          Conditions you signed before as well.Please view the terms and conditions page before proceeding.</b>
-      </p>
     </section>
-    <a href="/Admissions/cart/tos.html">Terms and Conditions</a>
   </section>
 
     <footer>

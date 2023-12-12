@@ -104,8 +104,8 @@ li {
 }
 
 /* media query*/
-@media only screen and (aspect-ratio: 16:9, 3:2) {
-    #home_page {
+@media only screen and (max-width: 640px) {
+    #products {
         padding: 1em;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -222,7 +222,6 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 30px;
 }
 
 
@@ -236,21 +235,18 @@ button {
     font-family: Francois One;
     font-weight: 400;
     background-color: #236154;
-    margin: 30px;
-    font-family: Francois One;
 }
 
 .ticket {
     display: flex;
     text-align: center;
     background-color: #C2B222;
-    width: 600px;
-    height: 300px;
+    width: 861px;
+    height: 641px;
     margin: 0 auto;
     margin-top: 1em;
 
 }
-
 
 .executive-pass {
     justify-content: center;
@@ -265,18 +261,10 @@ button {
     height: 75vh;
 }
 
-.pass-page {
-    margin: 50px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.paragraph {
+    font-family: 'Glory';
+    font-size: 20px;
 
-}
-
-.select {
-    align-items: center;
-    font-family: Francois One;
-    text-align: center;
 }
 
 .about {
@@ -285,7 +273,7 @@ button {
 
 label {
     display: inline-block;
-    font-family: 'Francois One', sans-serif;
+    font-family: 'Francois One';
     font-size: 25px;
 
 }
@@ -298,9 +286,13 @@ label {
 
 /* cart styling */
 .item {
-    padding: 15px;
     background-color: #d7d3d6;
-    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 1.5em;
+    width: 20%;
+    margin: 1em;
 }
 
 .item-info {
@@ -309,8 +301,6 @@ label {
     align-items: center;
     justify-content: center;
     font-size: 2em;
-    padding: 10px;
-    flex-wrap: wrap;
 }
 
 .executive {
@@ -332,31 +322,9 @@ label {
 }
 
 .wrapper {
-    display: flex;
+    display: grid;
     align-items: center;
     place-items: center;
-    flex-flow: row wrap;
-    width: 60vw;
-    margin: 0 auto;
 }
 
-select {
-    font-family: Glory;
-    background-color: #F8F8F0;
-}
- 
 /*checkout page styling*/
-
-.label2 {
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-}
-
-.input2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #236154;
-    width: 80%
-}

@@ -14,6 +14,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p {
     margin: 0;
     padding: 0;
@@ -74,6 +76,14 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+h5 {
+    font-family: Francois One;
+    font-size:16px;
+    margin-left: 200px;
+    color:#ff0008
+    
 }
 
 /* footer code */
@@ -349,14 +359,26 @@ select {
 
 .label2 {
     display: flex;
-    justify-content: center;
-    align-items: center ;
+    align-items: center;
+    margin-left: 200px;
+    padding-top: 40px;
 }
 
 .input2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #236154;
-    width: 80%
+    font-family: Glory;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    padding-bottom: 10px;
+    margin-left: 200px;
+    background-color: #ffffff;
+    width: 
+}
+
+.country {
+    font-family: Glory;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F8F8F0;
+    margin-left: 200px;
 }

@@ -137,6 +137,7 @@ li {
 
 .images2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -182,6 +183,7 @@ li {
 
 a {
     font-family: 'Francois One';
+    color: #236154;
 }
 
 .basic-seasonal {
@@ -222,6 +224,7 @@ form {
 
 h1 {
     font-family: 'Francois One';
+    padding: 15px;
 }
 
 h4 {
@@ -233,6 +236,11 @@ h4 {
     font-weight: 400;
     line-height: normal;
     margin-top: 30px;
+}
+
+.paragraph {
+    font-family: Glory;
+    padding:5px;
 }
 
 
@@ -255,7 +263,7 @@ button {
     text-align: center;
     background-color: #C2B222;
     width: 600px;
-    height: 300px;
+    height: auto;
     margin: 0 auto;
     margin-top: 1em;
 
@@ -379,6 +387,6 @@ select {
     font-family: Glory;
     font-size: 20px;
     font-weight: 600;
-    background-color: #F8F8F0;
+    background-color: #ffffff;
     margin-left: 200px;
 }

@@ -22,15 +22,15 @@
       <h5>* = required</h5>
       <form action="checkout.html">
         <label class="label2" for="fname">First Name</label><br>
-        <h5>*</h5><input type="text" class="input2" id="fname" name="fname" placeholder="John" required><br>
+        <h5>*</h5><input type="text" class="input2" id="fname" name="fname" placeholder="John" aria-required="true"><br>
         <label class="label2" for="lname">Last Name</label><br>
-        <h5>*</h5><input type="text" class="input2" id="lname" name="lname" placeholder="Doe" required><br>
+        <h5>*</h5><input type="text" class="input2" id="lname" name="lname" placeholder="Doe" aria-required="true"><br>
         <label class="label2" for="email">Email</label><br>
-        <h5>*</h5><input type="text" class="input2" id="JP" name="JP" placeholder="johndoe123@email.com" required><br>
+        <h5>*</h5><input type="text" class="input2" id="JP" name="JP" placeholder="johndoe123@email.com" aria-required="true"><br>
         <label class="label2" for="JP">Jurassic Pay ID</label><br>
-        <h5>*</h5><input type="text" class="input2" id="JP" name="JP"> required<br>
+        <h5>*</h5><input type="text" class="input2" id="JP" name="JP" aria-required="true"> <br>
         <label class="label2" for="country">Country</label><br>
-        <h5>*</h5><select class="country" name="country" required>
+        <h5>*</h5><select class="country" name="country" aria-required="true">
           <option value="">Select...</option>
           <option value="Afganistan">Afghanistan</option>
           <option value="Albania">Albania</option>
@@ -281,16 +281,16 @@
           <option value="Zimbabwe">Zimbabwe</option>
           </select>
         <label class="label2" for="JP">Billing Address</label><br>
-        <h5>*</h5><input type="text" class="input2" id="JP" name="baddress" placeholder="Street Address" required><br>
+        <h5>*</h5><input type="text" class="input2" id="JP" name="baddress" placeholder="Street Address" aria-required="true"><br>
         <input type="text" class="input2" id="JP" name="baddress" placeholder="Street Address 2 (optional)"><br>
-       <h5>*</h5><input type="text" class="input2" id="JP" name="baddress" placeholder="City" required><br>
-        <h5>*</h5><input type="text" class="input2" id="JP" name="baddress" placeholder="State/Province" required><br>
+       <h5>*</h5><input type="text" class="input2" id="JP" name="baddress" placeholder="City" aria-required="true"><br>
+        <h5>*</h5><input type="text" class="input2" id="JP" name="baddress" placeholder="State/Province" aria-required="true"><br>
         <label class="label2" for="JP">Phone Number</label><br>
-        <h5>*</h5><input type="text" class="input2" id="JP" name="phone" placeholder="(123) 456-7890" required><br>
+        <h5>*</h5><input type="text" class="input2" id="JP" name="phone" placeholder="(123) 456-7890" aria-required="true"><br>
       </form>
       <section class="check-end">
         <a href='/Admissions/cart/thank-you.html'>
-          <button class="checkout-button" type="submit">
+          <button type="submit" class="checkout-button">
             Checkout
           </button>
         </a>
